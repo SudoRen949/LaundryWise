@@ -3,7 +3,7 @@ import axios from "axios"
 async function AccessHTTP(action,route,data=null)
 {
 	let actionResult = null
-	let host = "https://laundry-wise-backend-7533db752950.vercel.app"
+	let host = "https://laundrywise-backend-production.up.railway.app"
 	switch (action) {
 		case "get":
 			actionResult = await axios.get(`${host}/api${route}`)
