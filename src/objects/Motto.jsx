@@ -2,10 +2,10 @@ const Motto = () =>
 {
 	return (
 		<>
-			<h1 className="text-white mt-3" style={{fontSize:45,textShadow:"2px 2px 2px black"}}>
+			<h1 className="text-white mt-1" style={{fontSize:45,textShadow:"2px 2px 2px black"}}>
 				EFFORTLESS LAUNDRY,<br/>DELIVERED FRESH TO YOUR DOORSTEP
 			</h1>
-			<p className="lead text-white mt-3 fs-5" style={{textShadow:"2px 2px 2px black"}}>
+			<p className="lead text-white mt-1 fs-5" style={{textShadow:"2px 2px 2px black"}}>
 				<i><b>
 					Experience the convenience of hassle-free laundry designed to<br/>
 					save your time and effort.
@@ -18,5 +18,6 @@ const Motto = () =>
 		</>
 	)
 }
+
 
 export default Motto
