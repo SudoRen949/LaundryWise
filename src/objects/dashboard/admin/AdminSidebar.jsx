@@ -38,7 +38,7 @@ function AdminSidebar()
 		  					<Link to="/dashboard/admin/settings">
 		  						<img className="img-thumbnail img-fluid mb-2 rounded-3" alt="my_profile" src={(pfp)?pfp:"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"} width="125" />
 		  					</Link>
-		  					<p><span id="myName">{window.localStorage.getItem("user")}</span> | Admin</p>
+		  					<p>Admin</p>
 		  				</div>
 		  				<Link to="/dashboard/admin/my" className="text-white fs-5 nav-link" style={{textShadow:"2px 2px 2px black"}}><i className="bi bi-journal"></i>&nbsp;Dashboard</Link>
 		  				<Link to="/dashboard/admin/shops" className="text-white fs-5 nav-link" style={{textShadow:"2px 2px 2px black"}}><i className="bi bi-menu-up"></i>&nbsp;List of shops</Link>
